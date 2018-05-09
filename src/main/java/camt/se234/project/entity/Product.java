@@ -27,6 +27,11 @@ public class Product {
     double price;
 
     public Product(String s, String apple, String kind_of_fruit, String location, double v) {
+        this.productId = s;
+        this.name = apple;
+        this.description = kind_of_fruit;
+        this.imageLocation = location;
+        this.price = v;
     }
 
     public Long getId() {
